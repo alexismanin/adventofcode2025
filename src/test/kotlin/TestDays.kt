@@ -9,7 +9,9 @@ class TestDays {
     @ParameterizedTest(name="Day {0} part {1} should return {2}")
     @CsvSource(
         "1, 1, 3",
-        "1, 2, 6"
+        "1, 2, 6",
+        "2, 1, 1227775554",
+        "2, 2, 4174379265",
     )
     fun testDay(dayIdx: Int, partIdx: Int, expectedOutput: Long) {
         val result = runDay(dayIdx, partIdx, Thread.currentThread().contextClassLoader)
