@@ -22,6 +22,7 @@ class TestDays {
         "6, 2, 3263827",
         "7, 1, 21",
         "7, 2, 40",
+        "8, 1, 40",
     )
     fun testDay(dayIdx: Int, partIdx: Int, expectedOutput: Long) {
         val result = runDay(dayIdx, partIdx, Thread.currentThread().contextClassLoader)
