@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" width="10.0em" height="16em">
+            <style type="text/css">
+            text {
+                font-family: monospace;
+                visibility: hidden;
+            }
+            @keyframes displayframe {
+    0% { visibility: visible; }
+    6.25% { visibility: hidden; }
+}
+#frame0 { animation: displayframe 4000ms linear infinite 0ms; }
+#frame1 { animation: displayframe 4000ms linear infinite 250ms; }
+#frame2 { animation: displayframe 4000ms linear infinite 500ms; }
+#frame3 { animation: displayframe 4000ms linear infinite 750ms; }
+#frame4 { animation: displayframe 4000ms linear infinite 1000ms; }
+#frame5 { animation: displayframe 4000ms linear infinite 1250ms; }
+#frame6 { animation: displayframe 4000ms linear infinite 1500ms; }
+#frame7 { animation: displayframe 4000ms linear infinite 1750ms; }
+#frame8 { animation: displayframe 4000ms linear infinite 2000ms; }
+#frame9 { animation: displayframe 4000ms linear infinite 2250ms; }
+#frame10 { animation: displayframe 4000ms linear infinite 2500ms; }
+#frame11 { animation: displayframe 4000ms linear infinite 2750ms; }
+#frame12 { animation: displayframe 4000ms linear infinite 3000ms; }
+#frame13 { animation: displayframe 4000ms linear infinite 3250ms; }
+#frame14 { animation: displayframe 4000ms linear infinite 3500ms; }
+#frame15 { animation: displayframe 4000ms linear infinite 3750ms; }
+
+            </style>
+<text id="frame0">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.......^.......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">......^.^......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame1">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">.......^.......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">......^.^......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame2">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">......^.^......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame3">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">......^.^......    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame4">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame5">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">.....^.^.^.....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame6">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame7">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">....^.^...^....    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame8">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame9">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">...^.^...^.^...    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame10">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame11">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">..|.|.|||.|.|..   13</tspan>
+<tspan x="0" dy="1em">..^...^.....^..    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame12">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">..|.|.|||.|.|..   13</tspan>
+<tspan x="0" dy="1em">.|^|||^||.||^|.   16</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame13">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">..|.|.|||.|.|..   13</tspan>
+<tspan x="0" dy="1em">.|^|||^||.||^|.   16</tspan>
+<tspan x="0" dy="1em">.|.|||.||.||.|.   16</tspan>
+<tspan x="0" dy="1em">.^.^.^.^.^...^.    0</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame14">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">..|.|.|||.|.|..   13</tspan>
+<tspan x="0" dy="1em">.|^|||^||.||^|.   16</tspan>
+<tspan x="0" dy="1em">.|.|||.||.||.|.   16</tspan>
+<tspan x="0" dy="1em">|^|^|^|^|^|||^|   21</tspan>
+<tspan x="0" dy="1em">...............    0</tspan>
+</text>
+<text id="frame15">
+<tspan x="0" dy="1em">.......S.......    0</tspan>
+<tspan x="0" dy="1em">.......|.......    0</tspan>
+<tspan x="0" dy="1em">......|^|......    1</tspan>
+<tspan x="0" dy="1em">......|.|......    1</tspan>
+<tspan x="0" dy="1em">.....|^|^|.....    3</tspan>
+<tspan x="0" dy="1em">.....|.|.|.....    3</tspan>
+<tspan x="0" dy="1em">....|^|^|^|....    6</tspan>
+<tspan x="0" dy="1em">....|.|.|.|....    6</tspan>
+<tspan x="0" dy="1em">...|^|^|||^|...    9</tspan>
+<tspan x="0" dy="1em">...|.|.|||.|...    9</tspan>
+<tspan x="0" dy="1em">..|^|^|||^|^|..   13</tspan>
+<tspan x="0" dy="1em">..|.|.|||.|.|..   13</tspan>
+<tspan x="0" dy="1em">.|^|||^||.||^|.   16</tspan>
+<tspan x="0" dy="1em">.|.|||.||.||.|.   16</tspan>
+<tspan x="0" dy="1em">|^|^|^|^|^|||^|   21</tspan>
+<tspan x="0" dy="1em">|.|.|.|.|.|||.|   21</tspan>
+</text>
+</svg>

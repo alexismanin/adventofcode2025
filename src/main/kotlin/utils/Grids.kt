@@ -25,9 +25,9 @@ interface MutableGrid<V> : Grid<V> {
     override fun copy(startCol: Int, startRow: Int, width: Int, height: Int): MutableGrid<V>
 }
 
-private fun Grid<Any>.requireInBounds(row: Int, column: Int) {
-    require(column in 0 ..< width) { "Row $column out of bounds (0..<$width)" }
-    require(row in 0 ..< height) { "Column $row out of bounds (0..<$height)" }
+private fun Grid<Any>.requireInBounds(column: Int, row: Int) {
+    require(column in 0 ..< width) { "Column $column out of bounds (0..<$width)" }
+    require(row in 0 ..< height) { "Row $row out of bounds (0..<$height)" }
 }
 
 private class TextGrid(override val width: Int, override val height: Int, private val rows: Array<CharArray>) : MutableGrid<Char> {
