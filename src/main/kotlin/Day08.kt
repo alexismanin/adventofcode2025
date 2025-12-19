@@ -9,6 +9,10 @@ data class Point(val x: Long, val y: Long, val z: Long) {
 
 fun Point.squaredDistanceTo(other: Point) = (this - other).squareNorm()
 
+data class Junction(val p1: Point, val p2: Point, val squareDist: Long = p1.squaredDistanceTo(p2))
+
+typealias Circuit = MutableSet<Point>
+
 data class Input(val pts: List<Point>, val iterations: Int = 1000)
 
 fun parse(input: List<String>) : Input {
@@ -23,36 +27,59 @@ fun parse(input: List<String>) : Input {
     return if (count == 0) Input(pts) else Input(pts, count)
 }
 
-fun part1(input: List<String>): Long = part1BrutForce(input)
+fun part1(input: List<String>): Long = solve(input, false)
+fun part2(input: List<String>): Long = solve(input, true)
 
-fun part1BrutForce(input: List<String>): Long {
-    val (pts, iterations) = parse(input)
-    data class Distance(val p1: Point, val p2: Point, val squareDist: Long = p1.squaredDistanceTo(p2))
-    val allDistances = ArrayList<Distance>(pts.size * (pts.size - 1))
+fun solve(input: List<String>, isPart2: Boolean): Long {
+    val (pts, iterations) = parse(input).let { if (isPart2) it.copy(iterations = Integer.MAX_VALUE) else it }
+
+    val allJunctions = ArrayList<Junction>(pts.size * (pts.size - 1))
     for (i in pts.indices) {
         for (j in (i+1) ..< pts.size) {
-            allDistances.add(Distance(pts[i], pts[j]))
+            allJunctions.add(Junction(pts[i], pts[j]))
         }
     }
-    allDistances.sortBy { it.squareDist }
-    println("Iterations: $iterations. Number of couples: ${allDistances.size}")
-    val circuits = ArrayList<MutableSet<Point>>(100)
-    for (i in 0..<(min(iterations, allDistances.size))) {
-        val (p1, p2, _) = allDistances[i]
+    allJunctions.sortBy { it.squareDist }
+    println("Iterations: $iterations. Number of couples: ${allJunctions.size}")
+    val circuits = ArrayList<Circuit>(100)
+    for (i in 0..<(min(iterations, allJunctions.size))) {
+        val (p1, p2, _) = allJunctions[i]
         var added = false
+        var searchConnected : Circuit? = null
         for (circuit in circuits) {
             if (p1 in circuit) {
-                circuit.add(p2)
+                if (searchConnected == null) {
+                    circuit.add(p2)
+                    searchConnected = circuit
+                } else {
+                    searchConnected.addAll(circuit)
+                    circuit.clear()
+                    added = true
+                    break
+                }
             } else if (p2 in circuit) {
-                circuit.add(p1)
+                if (searchConnected == null) {
+                    circuit.add(p1)
+                    searchConnected = circuit
+                } else {
+                    searchConnected.addAll(circuit)
+                    circuit.clear()
+                    added = true
+                    break
+                }
             } else {
                 continue
             }
             added = true
-            break
         }
 
         if (!added) circuits.add(mutableSetOf(p1, p2))
+        else {
+            circuits.removeIf { circuit -> circuit.isEmpty() }
+            if (isPart2 && circuits.any { it.size == pts.size }) {
+                return p1.x * p2.x
+            }
+        }
     }
 
     println("Number of circuits before optimisation: ${circuits.size}")
