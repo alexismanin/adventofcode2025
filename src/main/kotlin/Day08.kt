@@ -1,13 +1,11 @@
 package fr.amanin.aoc2025.day08
 
+import utils.Vector3D
 import kotlin.math.min
 
-data class Point(val x: Long, val y: Long, val z: Long) {
-    operator fun minus(other: Point): Point = Point(x - other.x, y - other.y, z - other.z)
-    fun squareNorm(): Long = x * x + y * y + z * z
-}
+typealias Point = Vector3D
 
-fun Point.squaredDistanceTo(other: Point) = (this - other).squareNorm()
+fun Point.squaredDistanceTo(other: Point) = (this - other).squaredNorm()
 
 data class Junction(val p1: Point, val p2: Point, val squareDist: Long = p1.squaredDistanceTo(p2))
 
@@ -21,7 +19,7 @@ fun parse(input: List<String>) : Input {
     val pts = input.map { line ->
         val tokens = line.split(",")
         require(tokens.size == 3)
-        Point(tokens[0].toLong(), tokens[1].toLong(), tokens[2].toLong())
+        Vector3D(tokens[0].toLong(), tokens[1].toLong(), tokens[2].toLong())
     }
 
     return if (count == 0) Input(pts) else Input(pts, count)
